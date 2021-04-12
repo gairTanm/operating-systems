@@ -2,9 +2,9 @@
 using namespace std;
 
 int main() {
-  int p, start, end, atime, btime;
+  int p, atime, btime;
   string pid;
-  priority_queue<tuple<int, int, string>, vector<tuple<int, int, string> >, greater<tuple<int, int, string> > > pq;
+  priority_queue<tuple<int, int, string>, vector<tuple<int, int, string> >, greater< > > pq;
   cout << "Enter number of processes: ";
   cin >> p;
 
